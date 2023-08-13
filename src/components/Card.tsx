@@ -71,7 +71,7 @@ export default function Card({ variant, imgSrc, className, index, controls }: Ca
         }
         src={imgSrc}
         alt=""
-        className="w-full h-full object-cover rounded-sm"
+        className="w-full h-full object-cover rounded-sm pointer-events-none"
         onLoad={imageLoaded} />
     </m.div>
   )
