@@ -1,7 +1,7 @@
 import CardGroups from "./CardGroups";
 
 import HeartCircle from "@/components/icon/HeartCircle";
-import HeartCross from "@/components/icon/CrossCircle";
+import CrossCircle from "@/components/icon/CrossCircle";
 
 import { useState } from "react";
 
@@ -39,7 +39,7 @@ export default function CardSwiper({ data }: { data: any[] }) {
       {/* controls */}
       <div className="relative w-[50vmin] mt-14">
         <div className="absolute mx-auto flex gap-x-4 justify-between items-center w-[25vmin] transform -translate-x-[50%] -translate-y-10 left-[50%] top-0">
-          <HeartCross fillColor="#FFFFFF" className="w-[25vmin]" onClick={handlePrev} />
+          <CrossCircle fillColor="#FFFFFF" className="w-[25vmin]" onClick={handlePrev} />
           <HeartCircle fillColor="#E11D48" className="w-[25vmin]" onClick={handleNext} />
         </div>
       </div>
