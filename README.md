@@ -1,4 +1,4 @@
-# Cardstack React
+# Cards Stack React
 Cards stack made with React Framer Motion. Build for learning purposes.
 
 ![Alt text](image.png)
@@ -7,4 +7,7 @@ Cards stack made with React Framer Motion. Build for learning purposes.
 1. Clone this repo
 2. Run `npm install`
 3. Run `npm run dev`
+
+## Demo
+[https://cards-stack-react.pages.dev/](https://cards-stack-react.pages.dev/)
 
