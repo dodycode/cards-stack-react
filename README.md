@@ -1,5 +1,5 @@
-# Cards Stack React
-Cards stack made with React Framer Motion. Build for learning purposes.
+# Stack Cards Slider
+Stack Cards Slider made with React Framer Motion. Build for learning purposes.
 
 ![Alt text](image.png)
 
