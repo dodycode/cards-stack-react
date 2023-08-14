@@ -14,7 +14,7 @@ import {
   mobileSmallCardFramerVariants
 } from "@/variants";
 
-const cardVariants = cva("aspect-[5/6] bg-white rounded-md border-0 border-transparent absolute overflow-hidden", {
+const cardVariants = cva("aspect-[5/6] bg-white rounded-md border-0 border-transparent absolute overflow-hidden pointer-events-none", {
   variants: {
     variant: {
       small: "w-[15vmin] left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] shadow-lg",
